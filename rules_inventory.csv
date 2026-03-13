@@ -1,0 +1,8 @@
+Rule_Name,Log_Source,Technique_ID,Tactic
+Suspicious LSASS Access,Sysmon,T1003.001,Credential Access
+High Frequency DNS,Network,T1071.004,Command and Control
+Remote Thread Creation,Sysmon,T1055,Defense Evasion
+Kerberoasting Ticket Request,Windows Security,T1558.003,Credential Access
+Suspicious Scheduled Task,Windows Security,T1053.005,Execution
+Suspicious Scheduled Task Creation,Sysmon,T1053.005,Execution
+Powershell Download Cradles,Sysmon,T1059.001,Execution
